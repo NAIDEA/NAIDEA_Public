@@ -24,8 +24,11 @@ Open NAIDEA.exe and follow installation guidelines (currently only available for
 ## Usage Steps
 
 Step 1. Insert current carbon intensity value. The current default value equals Ireland’s 2020 carbon intensity value of 296 kg CO2 / kWh as reported by SEAI (reference). This value can be updated at any stage by updating the figure and pressing the ‘Filter’ button.
+
 Step 2. Import Dataset. A full description of dataset and data handling requirements and example dataset is available at below. Once a csv file is selected from the file explorer and imported to NAIDEA, all models are called, electricity consumption values calculated and farm-level DERs determined. The length of time this process takes will depends on the size of the imported file. Once finished, the macro-level statistics section will be populated with intuitive charts and the key performance indicator table.
+
 Step 3. Select/deselect filter parameters as appropriate. The default parameters ensure all farms within the imported dataset are selected. Once the user deselects as required, the user can then press the “Filter” button to confirm and re-populate NAIDEA’s figures and tables. NAIDEA’s filter parameters can be updated and initialized at any time.
+
 Step 4. View generated figures and tables, while toggling through different charts using the radio buttons to the right of each chart.
 
 ## NAIDEA features
