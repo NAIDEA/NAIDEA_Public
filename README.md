@@ -19,7 +19,7 @@ NAIDEA's targeted approach can help fast track the proliferation of energy effic
 
 ## Accessing NAIDEA
 
-Open NAIDEA.exe and follow installation guidelines (currently only available for windows systems)
+Open NAIDEA.exe and follow installation guidelines (currently only available for windows systems). The NAIDEA.exe file will be uploaded soon once final upgrades have been implemented.
 
 ## Usage Steps
 
@@ -33,10 +33,6 @@ Step 4. View generated figures and tables, while toggling through different char
 
 ## NAIDEA features
 
-### Model Development
-
-Model Dev details...
-
 ### Dairy Energy Rating (DER)
 
 A novel dairy energy rating (DER) was developed to allow NAIDEA users intuitively determine each dairy farm’s total electrical energy consumption efficiency (Watt-hour (Wh) / liter) in relation to the population mean. A DER was developed consisting of a five-point scale from A to E, whereby A represented those farms with the least electricity consumption per liter, C represented mean efficiency, and E represented the largest electricity consumption per liter category. The DER also accounted for the generation of renewable energy through a solar photovoltaic system. For each farm, the estimated annual renewable energy generation (kWh) (if any) was subtracted from the forecasted total annual electricity consumption of the dairy farm prior to determining the DER of said farm.
@@ -44,6 +40,4 @@ A novel dairy energy rating (DER) was developed to allow NAIDEA users intuitivel
 ### Application Development
 
 NAIDEA was developed to enable dairy stakeholders take advantage of the above ANN models and DER functionality. The development of NAIDEA was underpinned by five aims and objectives that focused on delivering a finished product that had: 1) a simple installation process, 2) an intuitive and user-friendly interface, 3) import and export functionality, 4) the ability to quantify each farm’s electrical energy use in relation to the mean, and 5) a filtering mechanism to allow end-users to customize outputs in relation to installed infrastructural equipment, farm size and DER. NAIDEA’s GUI was designed and developed using Python (version 3.8) and it’s PyQt5 (version 5.15.6) package. The GUI was packaged as a standalone application using ![fman](https://build-system.fman.io/), a powerful package for deploying PyQt5 based desktop applications. For demonstrative purposes, a dummy database was constructed to present NAIDEA’s functionality.
-
-## Dataset Description
 
